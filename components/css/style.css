@@ -1,0 +1,135 @@
+
+/************************
+  Default Color Scheme
+  Dark Blue: #2C3E50;
+  Red: #E74C3C;
+  White: #ECF0F1;
+  Light Blue: #3498DB;
+  Medium Blue: #2980B9;
+************************/
+
+/*****************
+  mar & pad reset
+*****************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*****************
+  font
+*****************/
+body {
+  font: 62.5%/1.5 "brandon-grotesque", verdana,sans-serif;
+}
+p {
+  font-family: "rooney-web", georgia, serif;
+}
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 3.6em;
+}
+h2 {
+  font-size: 3.1em;
+}
+h3 {
+  font-size: 2.6em;
+}
+h4 {
+  font-size: 2.1em;
+}
+p,li {
+  font-size: 1.6em;
+}
+
+/*****************
+  header
+*****************/
+header {
+  width: 100%;
+  height: 100px;
+  background: #2C3E50;
+}
+header h1 {
+  padding: 25px;
+  color: #ECF0F1;
+  text-align: center;
+}
+
+/*****************
+  nav
+*****************/
+.nav {
+  margin: 30px 0;
+}
+.nav h2 {
+  color: #E74C3C;
+  margin: 0 30px;
+}
+nav {
+  width: 100%;
+  border-bottom: 2px solid #2C3E50;
+  background: #2980B9;
+  float: left;
+}
+nav ul {
+  float:left;
+  list-style: none;
+}
+nav ul>li {
+  display: block;
+  height: 100%;
+  float: left;
+}
+nav ul>li>a {
+  padding: 30px;
+  text-decoration: none;
+  color: #ECF0F1;
+}
+nav ul>li>a:hover {
+  color: #2C3E50;
+}
+/*****************
+  .typography
+*****************/
+.typography {
+  border-right: 1px solid black;
+  padding: 30px 15px 30px 30px;
+  float: left;
+  clear: left;
+}
+.typography h2:first-of-type {
+  color: #E74C3C;
+}
+
+/*****************
+  form
+*****************/
+.forms {
+  border-right: 1px solid black;
+  padding: 30px 15px 30px 15px;
+  float: left;
+}
+.forms h2 {
+  color: #E74C3C;
+}
+
+
+/*****************
+  button
+*****************/
+button {
+  padding: 5px;
+}
+
+/*****************
+  footer
+*****************/
+footer {
+  width: 100%;
+  height: 150px;
+  background: #2C3E50;
+  float: left;
+}
