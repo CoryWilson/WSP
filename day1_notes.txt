@@ -1,0 +1,9 @@
+-functional spec
+  -get a signature
+-know what you're building before you can design
+-personas
+  -he likes these colors and does these things
+-user flow
+-build a plan
+  -task management
+-communication
