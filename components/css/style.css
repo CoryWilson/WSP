@@ -47,6 +47,14 @@ p,li {
 /*****************
   header
 *****************/
+.header {
+  margin: 30px 70px;
+  padding: 30px;
+}
+.header h2 {
+  color: #E74C3C;
+  margin: 0 30px;
+}
 header {
   width: 100%;
   height: 100px;
@@ -62,7 +70,8 @@ header h1 {
   nav
 *****************/
 .nav {
-  margin: 30px 0;
+  margin: 30px 70px;
+  padding: 30px;
 }
 .nav h2 {
   color: #E74C3C;
@@ -84,7 +93,8 @@ nav ul>li {
   float: left;
 }
 nav ul>li>a {
-  padding: 30px;
+  display: block;
+  padding: 15px 30px;
   text-decoration: none;
   color: #ECF0F1;
 }
@@ -95,41 +105,78 @@ nav ul>li>a:hover {
   .typography
 *****************/
 .typography {
-  border-right: 1px solid black;
-  padding: 30px 15px 30px 30px;
-  float: left;
+  padding: 0 30px 30px;
+  border-bottom: 2px solid #2C3E50;
+  margin: 60px 100px;
   clear: left;
 }
 .typography h2:first-of-type {
   color: #E74C3C;
+}
+.typography ul{
+  margin-left: 20px;
+}
+.typography ul li:last-of-type{
+  font-family: "rooney-web", georgia, serif;
 }
 
 /*****************
   form
 *****************/
 .forms {
-  border-right: 1px solid black;
-  padding: 30px 15px 30px 15px;
-  float: left;
+  padding: 0 30px 30px;
+  border-bottom: 2px solid #2C3E50;
+  margin: 30px 100px;
 }
 .forms h2 {
   color: #E74C3C;
 }
 
+input, textarea {
+  width: 50%;
+  padding: 5px;
+  border: 1px solid #2C3E50;
+  box-shadow: 2px 2px 5px #2C3E50;
+  margin: 10px 30px 30px 0;
+  line-height: 1.25em;
+}
 
 /*****************
   button
 *****************/
 button {
-  padding: 5px;
+  display: block;
+  font-weight: bold;
+  width: 100px;
+  padding: 10px;
+  border: none;
+  background: #2980B9;
+  border: 1px solid #2C3E50;
+  box-shadow: 2px 2px 5px #2C3E50;
+}
+button:hover {
+  background: #2C3E50;
+  color: #ECF0F1;
 }
 
 /*****************
   footer
 *****************/
+.footer {
+  margin: 30px 70px;
+  padding: 30px;
+}
+.footer h2 {
+  color: #E74C3C;
+  margin: 0 30px;
+}
 footer {
   width: 100%;
-  height: 150px;
   background: #2C3E50;
   float: left;
+}
+footer p {
+  text-align: center;
+  color: #ECF0F1;
+  padding: 50px;
 }
