@@ -116,8 +116,14 @@ nav ul>li>a:hover {
 .typography ul{
   margin-left: 20px;
 }
-.typography ul li:last-of-type{
+.rw{
   font-family: "rooney-web", georgia, serif;
+}
+.cp{
+  font-family: "chaparral-pro", georgia, serif;
+}
+.pn{
+  font-family: "proxima-nova", verdana, sans-serif;
 }
 
 /*****************
