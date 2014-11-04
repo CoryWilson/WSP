@@ -20,10 +20,10 @@
   font
 *****************/
 body {
-  font: 62.5%/1.5 "brandon-grotesque", verdana,sans-serif;
+  font: 62.5%/1.5 "chaparral-pro", verdana,sans-serif;
 }
 p {
-  font-family: "rooney-web", georgia, serif;
+  font-family: "garamond-pro", georgia, serif;
 }
 h1, h2, h3, h4 {
   font-weight: bold;
@@ -121,8 +121,14 @@ nav ul>li>a:hover {
   color: #E74C3C;
 }
 .default,.documentation{
-  width: 50%;
+  width: 48%;
   float: left;
+}
+.default h1, .default h2, .default h3, .default h4, .default li:first-of-type {
+  font-family: "brandon-grotesque";
+}
+.default p, .default li:last-of-type {
+  font-family: "rooney-web";
 }
 .typography ul{
   margin-left: 20px;

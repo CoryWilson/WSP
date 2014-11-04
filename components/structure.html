@@ -2,77 +2,83 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <!--default kit-->
     <script src="//use.typekit.net/rrh2wap.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
+
+    <!--documentation kit--><script src="//use.typekit.net/slj1maf.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+
     <link rel="stylesheet" href="css/style.css">
     <title>Component Library</title>
   </head>
   <body>
-    <div class="header">
-      <h2>Header</h2>
-      <header>
-        <h1>Component Library</h1>
-      </header>
-    </div>
-    <div class="nav">
-      <h2>Navigation</h2>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="typography">
-      <h2>Typography</h2>
-      <br/>
-      <h3>Default Typefaces Used:</h3>
-      <ul>
-        <li>Brandon Grotesque</li>
-        <li class="rw">Rooney Web</li>
-      </ul>
-      <br/>
-      <h3>Font Sizing:</h3>
-      <h1>Heading 1 &lt;h1&gt;</h1>
-      <h2>Heading 2 &lt;h2&gt;</h2>
-      <h3>Heading 3 &lt;h3&gt;</h3>
-      <h4>Heading 4 &lt;h4&gt;</h4>
-      <p>Paragraph &lt;p&gt;</p>
-      <br/>
-      <h3 class="cp">Documentation Typefaces Used:</h3>
-      <ul>
-        <li class="cp">Chaparral Pro</li>
-        <li class="pn">Proxima Nova</li>
-      </ul>
-      <br/>
-      <h3 class="cp">Font Sizing:</h3>
-      <h1 class="cp">Heading 1 &lt;h1&gt;</h1>
-      <h2 class="cp">Heading 2 &lt;h2&gt;</h2>
-      <h3 class="cp">Heading 3 &lt;h3&gt;</h3>
-      <h4 class="cp">Heading 4 &lt;h4&gt;</h4>
-      <p class="pn">Paragraph &lt;p&gt;</p>
-      <br/>
-    </div>
-    <div class="forms">
-      <h2>Forms & Inputs</h2>
-      <form>
-        <br/>
-        <h4>Text Input</h4>
-        <input type="text" name="form"/>
-        <h4>Text Area</h4>
-        <textarea rows="4" cols="25"></textarea>
-      </form>
-      <h4>Button</h4>
-      <button>
-        Submit
-      </button>
-    </div>
-    <div class="footer">
-      <h2>Footer</h2>
-      <footer>
-        <p>&copy; Cory Wilson 2014</p>
-      </footer>
-    </div>
+    <div class="container">
+      <div class="header">
+        <h2>Header</h2>
+        <header>
+          <h1>Component Library</h1>
+        </header>
+      </div>
+      <div class="nav">
+        <h2>Navigation</h2>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="typography">
+        <h2>Typography</h2>
+        <div class="default">
+          <h3>Default Typefaces Used:</h3>
+          <ul>
+            <li>Brandon Grotesque</li>
+            <li class="rw">Rooney Web</li>
+          </ul>
+          <h3>Font Sizing:</h3>
+          <h1>Heading 1 &lt;h1&gt;</h1>
+          <h2>Heading 2 &lt;h2&gt;</h2>
+          <h3>Heading 3 &lt;h3&gt;</h3>
+          <h4>Heading 4 &lt;h4&gt;</h4>
+          <p>Paragraph &lt;p&gt;</p>
+        </div>
+        <div class="documentation">
+          <h3 class="cp">Documentation Typefaces Used:</h3>
+          <ul>
+            <li class="cp">Chaparral Pro</li>
+            <li class="agp">Adobe Garamond Pro</li>
+          </ul>
+          <h3 class="cp">Font Sizing:</h3>
+          <h1 class="cp">Heading 1 &lt;h1&gt;</h1>
+          <h2 class="cp">Heading 2 &lt;h2&gt;</h2>
+          <h3 class="cp">Heading 3 &lt;h3&gt;</h3>
+          <h4 class="cp">Heading 4 &lt;h4&gt;</h4>
+          <p class="agp">Paragraph &lt;p&gt;</p>
+        </div>
+      </div>
+      <div class="forms">
+        <h2>Forms & Inputs</h2>
+        <form>
+          <br/>
+          <h4>Text Input</h4>
+          <input type="text" name="form"/>
+          <h4>Text Area</h4>
+          <textarea rows="4" cols="25"></textarea>
+        </form>
+        <h4>Button</h4>
+        <button>
+          Submit
+        </button>
+      </div>
+      <div class="footer">
+        <h2>Footer</h2>
+        <footer>
+          <p>&copy; Cory Wilson 2014</p>
+        </footer>
+      </div>
+    </div><!--end container-->
   </body>
 </html>
