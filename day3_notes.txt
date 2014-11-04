@@ -1,0 +1,19 @@
+CSS can do THAT?
+-Trevan Hetzel
+
+utilizing label to make checkboxes look consistent crossbrowser
+
+:checked + sibling selector
++ -adjacent sibling selector
++ -general sibling selector
+
+.checkbox:checked+label::before{
+
+}
+
+:before and :after pseudo elements
+
+
+-a book apart book series
+-rallyarmor mud flaps
+-hella horns
