@@ -1,0 +1,10 @@
+WAI-ARIA
+jaws screen reader
+voiceover
+
+tab index to move across form elements
+-thinking about that
+-"do they have to go through the whole nav?"
+-element attribute set tab-index
+-role-main
+  role=button
