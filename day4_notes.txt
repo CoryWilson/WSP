@@ -8,3 +8,17 @@ tab index to move across form elements
 -element attribute set tab-index
 -role-main
   role=button
+
+aria-controlled by
+allows video to be controlled by keys
+
+live regions
+-default read out new element
+-e.g. shopping cart
+-relevant
+  -additions
+  -removals
+
+aria-log
+
+aural
