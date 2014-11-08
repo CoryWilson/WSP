@@ -1,0 +1,22 @@
+/* _typography.scss */
+
+$primary-typeface   : 'brandon-grotesque',verdana,sans-serif;
+$secondary-typeface : 'rooney-web',georgia,serif;
+
+h1,h2,h3,h4,li {
+  font-family: $primary-typeface;
+}
+
+p {
+  font-family: $secondary-typeface;
+}
+
+h1 {
+  font-size: 3.6em;
+}
+h2 {
+  font-size: 3.1em;
+}
+p,li {
+  font-size: 1.6em;
+}

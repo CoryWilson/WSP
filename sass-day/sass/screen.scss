@@ -1,0 +1,153 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "variables";
+@import "print";
+
+body h1.large a {
+
+}
+
+body {
+  h1{
+
+    color: red;
+
+    &.large{
+
+      color: green;
+
+      a{
+
+        &:link {
+
+        }
+        &:visited {
+
+        }
+
+      }
+
+    }
+  }
+}
+
+/* & is a direct parent selector */
+/* > is a first child selector, like css */
+$red-value     : 255;
+$blue-value    : 255;
+
+$primary-red   : rgb(255,200,0);
+$base-red      : rgb(255,100,100);
+$secondary-red : rgb(240,0,0);
+
+
+$primary-blue  : rgb($red-value,0,$blue-value);
+
+.red-1 {
+  color: $red-1;
+}
+
+$full-width : 100%;
+
+.medium-width {
+  width: ($full-width)-100px;
+}
+
+$border-radius : 5px;
+
+@mixin buttonStyles($radius) {
+  width: 100px;
+  line-height: 50px;
+  height: 50px;
+  padding: 20px;
+  border-radius: $radius;
+}
+
+.useThisButton {
+  @include buttonStyles($border-radius);
+}
+/*
+.useThisButton-largeCorners {
+    @include buttonStyles(20px);
+}
+ */
+
+ .superCoolClass {
+    width: 100px;
+    line-height: 50px;
+    height: 50px;
+    padding: 20px;
+    border-radius: $radius;
+ }
+ .almostAsCool {
+   @extend .superCoolClass;
+ }
+
+/*
+  % placeholder - use them to make utilities
+  using % wont place into stylesheet until extended
+*/
+%.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.button-left {
+  @extend .float-left;
+}
+
+unquote(555+"40px");
+595px
+
+@function sizeWidth($value) {
+  @return unquote($value + "px");
+}
+
+.#{$}
+
+@mixin color_class($color) {
+  .#{$color}.color {
+      color: $color;
+      @if $color == red {
+        border: 5px solid black;
+      } @else if $green {
+        width: 500px;
+      } @else {
+        color: $blue;
+      }
+  }
+}
+
+@include color_class(red);
+@include color_class(blue);
+
+.main-content {
+  font-size: 1.5em;
+  @media (min-width: 400px) {
+    font-size: 2em;
+  }
+}
+
+@for $i from 1 through 100 {
+  .item:nth-child(#{$i}){
+    background: darken(red,$i);
+  }
+}
+
+@mixin wsp($students...){
+  @each $student in $students {
+    .#{student} {
+      background: url("img/#{student}.jpg");
+    }
+  }
+}
+@include wsp(brian,tom,mark,mary);
+
+.brian {
+  background: url("img/brian.jpg");
+}

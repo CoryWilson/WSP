@@ -1,0 +1,30 @@
+/* _colors.scss */
+$dark-blue   : rgb(44,62,80);
+$medium-blue : rgb(41,128,185);
+$light-blue  : rgb(52,152,219);
+$white       : rgb(236,240,241);
+$red         : rgb(231,76,60);
+
+header {
+  background: $dark-blue;
+  box-shadow: 1px 3px 5px $dark-blue;
+  h1{
+    color: $white;
+  }
+  ul{
+    li{
+      a{
+        color: $white;
+      }
+      a:hover{
+        color: $red;
+      }
+      a:active{
+        color: $light-blue;
+      }
+    }
+  }
+}
+body {
+  background: $white;
+}
