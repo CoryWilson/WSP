@@ -1,0 +1,12 @@
+# Site settings
+title: Cory Wilson | Front-End Web Developer
+email: ctwilson08@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  I'm a student at Full Sail University. Trying to keep up with the everchanging Web Industry.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: ctwilson25
+github_username:  CoryWilson
+
+# Build settings
+markdown: kramdown
